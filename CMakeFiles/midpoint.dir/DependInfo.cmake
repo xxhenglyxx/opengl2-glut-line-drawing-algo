@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.cpp" "/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/midpoint.dir/src/Circle.cpp.o"
   "/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.cpp" "/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/midpoint.dir/src/Display.cpp.o"
+  "/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Line.cpp" "/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/midpoint.dir/src/Line.cpp.o"
   "/Users/shadowlegend/zaman/computer-graphic/midpoint/src/main.cpp" "/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/midpoint.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

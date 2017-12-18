@@ -1,8 +1,5 @@
 
 #include "Circle.h"
-#include <math.h>
-#include <OpenGL/gl.h>
-#include <iostream>
 
 Circle::Circle ( const int center_pos_x, const int center_pos_y ) {
 

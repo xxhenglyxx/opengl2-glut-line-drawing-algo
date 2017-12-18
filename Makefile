@@ -177,6 +177,33 @@ src/Display.cpp.s:
 	$(MAKE) -f CMakeFiles/midpoint.dir/build.make CMakeFiles/midpoint.dir/src/Display.cpp.s
 .PHONY : src/Display.cpp.s
 
+src/Line.o: src/Line.cpp.o
+
+.PHONY : src/Line.o
+
+# target to build an object file
+src/Line.cpp.o:
+	$(MAKE) -f CMakeFiles/midpoint.dir/build.make CMakeFiles/midpoint.dir/src/Line.cpp.o
+.PHONY : src/Line.cpp.o
+
+src/Line.i: src/Line.cpp.i
+
+.PHONY : src/Line.i
+
+# target to preprocess a source file
+src/Line.cpp.i:
+	$(MAKE) -f CMakeFiles/midpoint.dir/build.make CMakeFiles/midpoint.dir/src/Line.cpp.i
+.PHONY : src/Line.cpp.i
+
+src/Line.s: src/Line.cpp.s
+
+.PHONY : src/Line.s
+
+# target to generate assembly for a file
+src/Line.cpp.s:
+	$(MAKE) -f CMakeFiles/midpoint.dir/build.make CMakeFiles/midpoint.dir/src/Line.cpp.s
+.PHONY : src/Line.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/Display.o"
 	@echo "... src/Display.i"
 	@echo "... src/Display.s"
+	@echo "... src/Line.o"
+	@echo "... src/Line.i"
+	@echo "... src/Line.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

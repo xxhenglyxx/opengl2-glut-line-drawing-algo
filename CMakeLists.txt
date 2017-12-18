@@ -20,6 +20,7 @@ add_executable(
     midpoint
     src/main.cpp
     src/Display.cpp
+    src/Line.cpp
     src/Circle.cpp
 )
 

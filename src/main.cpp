@@ -5,9 +5,11 @@
 #include "Display.h"
 #include "Circle.h"
 #include <sstream>
+#include "Line.h"
 
 int drawing_type = 0, line_color = 0;
 Display display ( 20, 20 );
+Line line1;
 Circle circle;
 
 void render ();
@@ -24,7 +26,8 @@ int main ( int args_len, char ** args_context ) {
     glutCreateWindow ( "OpenGL Midpoint Algorithm Simulation" );
 
     display.setMaxDisplaySize ( 20, 20 );
-    display.setBackgroundColor ( .3, .5, .6 );
+    // display.setBackgroundColor ( .3, .5, .6 );
+    display.setBackgroundColor ( .0, .0, .0 );
 
     // menus
     int drawing_option = glutCreateMenu ( drawingOption );
@@ -44,6 +47,8 @@ int main ( int args_len, char ** args_context ) {
     glutAddSubMenu ( "Drawing", drawing_option );
     glutAddSubMenu ( "Line Color", line_color_option );
     glutAttachMenu ( GLUT_RIGHT_BUTTON );
+
+    line1.setLineDrawAlgorithm ( 1 );
 
     glutDisplayFunc ( render );
 
@@ -124,10 +129,11 @@ void render () {
 
     glClear ( GL_COLOR_BUFFER_BIT );
 
-    display.showGrid ();
-    display.showAxis ();
+    // display.showGrid ();
+    // display.showAxis ();
 
     circle.draw ();
+    line1.draw ();
 
     glFlush ();
 

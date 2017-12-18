@@ -9,16 +9,14 @@
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.cpp
 Circle.h
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.h
-math.h
--
-OpenGL/gl.h
--
-iostream
--
 
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.cpp
 Display.h
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.h
+
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Line.cpp
+Line.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Line.h
 
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/main.cpp
 Display.h
@@ -27,17 +25,31 @@ Circle.h
 /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.h
 sstream
 -
+Line.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Line.h
 
 include/Circle.h
 array
 -
 vector
 -
+math.h
+-
+OpenGL/gl.h
+-
+iostream
+-
 
 include/Display.h
 OpenGL/gl.h
 -
 GLUT/glut.h
+-
+iostream
+-
+
+include/Line.h
+OpenGL/gl.h
 -
 iostream
 -

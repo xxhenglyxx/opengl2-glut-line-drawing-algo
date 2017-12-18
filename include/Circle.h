@@ -4,6 +4,9 @@
 
 #include <array>
 #include <vector>
+#include <math.h>
+#include <OpenGL/gl.h>
+#include <iostream>
 
 class Circle {
 

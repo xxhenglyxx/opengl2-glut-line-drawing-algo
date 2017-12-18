@@ -7,7 +7,11 @@ CMakeFiles/midpoint.dir/src/Circle.cpp.o: include/Circle.h
 CMakeFiles/midpoint.dir/src/Display.cpp.o: src/Display.cpp
 CMakeFiles/midpoint.dir/src/Display.cpp.o: include/Display.h
 
+CMakeFiles/midpoint.dir/src/Line.cpp.o: src/Line.cpp
+CMakeFiles/midpoint.dir/src/Line.cpp.o: include/Line.h
+
 CMakeFiles/midpoint.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/midpoint.dir/src/main.cpp.o: include/Circle.h
 CMakeFiles/midpoint.dir/src/main.cpp.o: include/Display.h
+CMakeFiles/midpoint.dir/src/main.cpp.o: include/Line.h
 

@@ -7,7 +7,11 @@ CMakeFiles/midpoint.dir/src/Circle.cpp.o
 CMakeFiles/midpoint.dir/src/Display.cpp.o
  /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.cpp
  include/Display.h
+CMakeFiles/midpoint.dir/src/Line.cpp.o
+ /Users/shadowlegend/zaman/computer-graphic/midpoint/src/Line.cpp
+ include/Line.h
 CMakeFiles/midpoint.dir/src/main.cpp.o
  /Users/shadowlegend/zaman/computer-graphic/midpoint/src/main.cpp
  include/Circle.h
  include/Display.h
+ include/Line.h

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/midpoint.dir/src/main.cpp.o"
   "CMakeFiles/midpoint.dir/src/Display.cpp.o"
+  "CMakeFiles/midpoint.dir/src/Line.cpp.o"
   "CMakeFiles/midpoint.dir/src/Circle.cpp.o"
   "bin/midpoint.pdb"
   "bin/midpoint"
