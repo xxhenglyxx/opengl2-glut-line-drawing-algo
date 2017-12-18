@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.cpp
+Circle.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.h
+math.h
+-
+OpenGL/gl.h
+-
+iostream
+-
+
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.cpp
+Display.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.h
+
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/main.cpp
+Display.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Display.h
+Circle.h
+/Users/shadowlegend/zaman/computer-graphic/midpoint/src/Circle.h
+sstream
+-
+
+include/Circle.h
+array
+-
+vector
+-
+
+include/Display.h
+OpenGL/gl.h
+-
+GLUT/glut.h
+-
+iostream
+-
+

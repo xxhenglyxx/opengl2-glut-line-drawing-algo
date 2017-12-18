@@ -1,0 +1,3 @@
+/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/rebuild_cache.dir
+/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/edit_cache.dir
+/Users/shadowlegend/zaman/computer-graphic/midpoint/CMakeFiles/midpoint.dir
