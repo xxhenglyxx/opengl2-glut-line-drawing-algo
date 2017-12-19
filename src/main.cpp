@@ -26,8 +26,8 @@ int main ( int args_len, char ** args_context ) {
     glutCreateWindow ( "OpenGL Midpoint Algorithm Simulation" );
 
     display.setMaxDisplaySize ( 20, 20 );
-    // display.setBackgroundColor ( .3, .5, .6 );
-    display.setBackgroundColor ( .0, .0, .0 );
+    display.setBackgroundColor ( .3, .5, .6 );
+    // display.setBackgroundColor ( .0, .0, .0 );
 
     // menus
     int drawing_option = glutCreateMenu ( drawingOption );
@@ -129,8 +129,8 @@ void render () {
 
     glClear ( GL_COLOR_BUFFER_BIT );
 
-    // display.showGrid ();
-    // display.showAxis ();
+    display.showGrid ();
+    display.showAxis ();
 
     circle.draw ();
     line1.draw ();
